@@ -5,6 +5,7 @@ import Svg, { Path } from "react-native-svg"
 
 // Import SVG
 import Pokeball from '../../assets/patterns/pokeball'
+import Pokeball_patterns from '../../assets/patterns/pokeball_patterns'
 import Generation from '../../assets/icons/generation'
 import Sort from '../../assets/icons/sort'
 import Filter from '../../assets/icons/filter'
@@ -50,7 +51,8 @@ export default function Home() {
 
       <View style={styles.CardList}>
         <View style={styles.Cards}>
-        
+          <Pokeball_patterns />
+          <Image source={Bulbasaur} style={styles.pokemonImg}/>
           <Text style={styles.number}>#001</Text>
           <Text style={styles.pokemonName}>Bulbasaur</Text>
           <View style={styles.typeGroup}>
@@ -66,7 +68,15 @@ export default function Home() {
             
           </View>
         </View>
+
+      
+            
+
+            
+
       </View>
+      
+      
     </View>
 
 

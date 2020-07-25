@@ -38,11 +38,12 @@ export default StyleSheet.create({
         height: 144,
         backgroundColor: '#8BBE8A',
         paddingLeft: 20,
-        paddingTop: 20
+        paddingTop: 20,
+        marginTop: 25
     },
 
     CardList: {
-        paddingTop: 45,
+        paddingTop: 15,
 
     },
 
@@ -99,8 +100,11 @@ export default StyleSheet.create({
         paddingLeft: -10,
     },
 
-    badgtes: {
-        
+    pokemonImg: {
+        position: "absolute",
+        right: -10,
+        height: 130,
+        width: 130
     }
 
 
