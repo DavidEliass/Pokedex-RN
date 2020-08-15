@@ -47,6 +47,11 @@ export default StyleSheet.create({
 
     },
 
+    patterns: {
+        width: 75,
+        height: 75
+    },
+
     number: {
         fontSize: 12,
         fontFamily: 'sf-pro-display-bold',
