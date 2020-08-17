@@ -12,7 +12,7 @@ import Sort from '../../assets/icons/sort'
 import FilterIcon from '../../assets/icons/filter'
 
 //Type 
-import Glass_Type from '../../assets/types/glass'
+import Glass_Type from '../../assets/types/grass'
 import Poison_Type from '../../assets/types/poison'
 
 //Pokemon Png
@@ -53,7 +53,7 @@ export default function Home() {
 
 
       </View>
-      <Modalize ref={filterModal} snapPoint={337} modalHeight={500}>
+      <Modalize ref={filterModal} snapPoint={337} modalHeight={600}>
         <FilterModal />
       </Modalize>
 

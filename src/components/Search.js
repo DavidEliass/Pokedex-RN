@@ -14,7 +14,7 @@ const SearchComponent = () => {
             value={searchQuery}
             style={styles.search}
             inputStyle={styles.TextInput}
-            
+    
             />
     </View>
     );
